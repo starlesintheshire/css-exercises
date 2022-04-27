@@ -3,7 +3,8 @@
   background: papayawhip;
   display: flex;
   align-items: center;
-  padding: 4px;
+  justify-content: space-between;
+  padding: 8px;
 }
 
 .logo {
@@ -11,33 +12,16 @@
   font-weight: 900;
   color: tomato;
   background: white;
-  padding: 0px 32px;
-  flex: 0 1 auto;
-  margin: 8px;
-}
-
-.left-links,
-.right-links {
-  flex: 1;
-}
-
-.left-links ul,
-.right-links ul {
-  display: flex;
-  padding-left: 0px;
-}
-
-.right-links ul {
-  justify-content: flex-end;
+  padding: 4px 32px;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
-}
-
-li {
-  padding: 8px;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  gap: 8px;
 }
 
 a {
