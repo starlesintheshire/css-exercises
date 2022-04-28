@@ -14,9 +14,18 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+.header ul, .footer ul {
+  display: flex;
+  gap: 20px;
+  margin: 0px;
+  padding: 20px;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
+  background-color: #eeeeee;
 }
 .content {
   display: flex;
@@ -46,4 +55,9 @@ input {
 
 ul {
   list-style-type: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(90, 90, 90);
 }
