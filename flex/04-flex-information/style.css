@@ -16,7 +16,18 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  flex: auto;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.one, .two, .three, .four {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
 }
 
 /* do not edit this footer */
